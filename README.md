@@ -11,8 +11,18 @@ at nyu itp during the fall 2016 semester
 * collaboration
 * feeling of being a part of it
 * improvisation
+* now!
 
-examples: chatroulette, omegle
+examples: chatroulette, omegle, facebook live, google hangouts, periscope, live coding performances
+
+we will be using google chrome mostly
+
+html stands for hyper text markup language
+
+as we may think article about science right after world war ii
+http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+
+
 
 ## class 02, 2016, 09 13
 
