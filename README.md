@@ -30,6 +30,8 @@ javascript is a programming language, is procedural and adds interactivity to th
 
 ### html
 
+it is good manners to do divisions, with ids, on the body section, so that they can be styled with css.
+
 ## class 02, 2016, 09 13
 
 ## class 03
