@@ -17,12 +17,18 @@ examples: chatroulette, omegle, facebook live, google hangouts, periscope, live 
 
 we will be using google chrome mostly
 
-html stands for hyper text markup language
+### what languages are present on a website?
+
+html stands for hyper text markup language, it holds the content of the website
 
 as we may think article about science right after world war ii
 http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
 
+css stands for cascading style sheet, it alters style and behavior of the webpage and is able to do transitions.
 
+javascript is a programming language, is procedural and adds interactivity to the webpage. the standard name of javascript is ecmascript.
+
+### html
 
 ## class 02, 2016, 09 13
 
