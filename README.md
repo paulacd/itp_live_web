@@ -41,7 +41,9 @@ the way javascript interacts with the webpage is through dom, which stands for d
 html dom reference at w3schools
 http://www.w3schools.com/jsref/default.asp
 
+### window.document
 
+it allows to access every portion of the page
 
 ## class 02, 2016, 09 13
 

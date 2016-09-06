@@ -7,6 +7,8 @@
 
     <script type="text/javascript">
         var foo = "something";
+        var divTwo;
+        var myVideo;
 
         console.log(foo);
 
@@ -19,7 +21,7 @@
         var i = 0;
 
         document.addEventListener("mousedown", function() {
-          aFunction;
+          console.log("clicked");
         })
 
 
@@ -36,8 +38,48 @@
           alert("bfunction");
         }
 
+        console.log(window.document);
 
+        //this is super important!!
+        //it has two parts
+        //first the declaration of the function
+        function whenPageLoadsDoThis() {
+          //append the string "nothing" to the body
+          window.document.body.innerHTML += "nothing";
 
+          //way of traversing the dom
+          //it's the reason you use ids
+          divTwo = window.document.getElementById("two");
+          divTwo.innerHTML = "haha";
+          divTwo.style.color = "red";
+          divTwo.style.fontSize = "100px";
+          divTwo.addEventListener("click", whenMouseIsClicked);
+
+          //we can omit window, because it is implied
+          myVideo = document.getElementById("avideo");
+
+          //anonymous inline function
+          myVideo.addEventListener("timeupdate",
+        function() {
+          console.log(myVideo.currentTime);
+          if(myVideo.currentTime > 10) {
+            divTwo.innerHTML = "cow"
+          }
+          if (myVideo.currentTime > 15) {
+            divTwo.innerHTML = "hungry"
+          }
+        });
+
+          myVideo.play();
+
+        }
+
+        function whenMouseIsClicked() {
+          divTwo.style.color="green";
+        }
+
+        //then the event listener to execute it
+        window.addEventListener("load", whenPageLoadsDoThis);
 
     </script>
 
@@ -50,7 +92,7 @@
     <div id="one">here is a division of content</div>
     <div id="two">here is another section</div>
 
-
+     <video id="avideo" width="720" height="480" src="http://itp.nyu.edu/~sve204/liveweb_fall2016/video.mp4" controls />
 
 </body>
 
