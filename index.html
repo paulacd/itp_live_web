@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>fun page</title>
-  </head>
-  <body>
+
+    <script type="text/javascript">
+        var foo = "something";
+
+        console.log(foo);
+
+        if ( typeof(foo) == "string") {
+          console.log("it's a string")
+          alert("just for fun");
+        }
+        console.log(typeof(foo));
+
+        var i = 0;
+
+        document.addEventListener("mousedown", function() {
+          aFunction;
+        })
+
+
+        //this way of declaring a function is useful
+        //because javascript compiles it right away
+        //so we can use this function before this declaration in the code.
+        function aFunction() {
+          alert(i);
+          i++;
+        }
+
+        //this other function can't be used before this declaration, because of the way of declaring it, which assigns its value to a variable
+        var bfunction = function() {
+          alert("bfunction");
+        }
+
+
+
+
+    </script>
+
+</head>
+
+<body>
 
     content that shows up on a page
 
@@ -13,5 +52,6 @@
 
 
 
-  </body>
+</body>
+
 </html>

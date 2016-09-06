@@ -32,6 +32,17 @@ javascript is a programming language, is procedural and adds interactivity to th
 
 it is good manners to do divisions, with ids, on the body section, so that they can be styled with css.
 
+### javascript
+
+2 ways of declaring function
+
+the way javascript interacts with the webpage is through dom, which stands for document object model.
+
+html dom reference at w3schools
+http://www.w3schools.com/jsref/default.asp
+
+
+
 ## class 02, 2016, 09 13
 
 ## class 03
