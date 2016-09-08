@@ -5,8 +5,8 @@ at nyu itp during the fall 2016 semester
 
 ## class 01, 2016 09 06
 
-[notes](../class_01/README.md)
-[assignment](../class_01/README.md)
+[notes](./class_01/README.md)
+[assignment](./class_01/README.md)
 
 ## class 02, 2016 09 13
 
