@@ -5,9 +5,15 @@ at nyu itp during the fall 2016 semester
 
 ## class 01, 2016 09 06
 
-[notes](./class_01/README.md)
-[assignment: self-portrait](./class_01/README.md)
-[assignment: live/synchronous site](./class_01/README.md)
+[notes]
+(./class_01/README.md)
+
+[assignment: self-portrait]
+(http://aaronmontoya.cl/itp_live_web/class_01/)
+
+[assignment: live/synchronous site]
+(./class_01/assignment_live_site.md)
+
 
 ## class 02, 2016 09 13
 
