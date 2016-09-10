@@ -42,7 +42,6 @@ at nyu itp during the fall 2016 semester
 ## class 05, 2016 10 04
 
 [notes]
-
 (./class_05/README.md)
 
 [assignment]
@@ -70,7 +69,6 @@ at nyu itp during the fall 2016 semester
 (./class_08/README.md)
 
 [assignment]
-
 (./class_08/README.md)
 
 ## class 09, 2016 11 01
