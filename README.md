@@ -1,6 +1,6 @@
 # itp live web
 
-taught by shawn van every
+taught by Shawn Van Every
 at nyu itp during the fall 2016 semester
 
 ## class 01, 2016 09 06
